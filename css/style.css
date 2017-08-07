@@ -1,0 +1,215 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+/* line 9, style.scss */
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+/* line 14, style.scss */
+.header, .header .uls {
+  position: relative; }
+
+/* line 15, style.scss */
+.header .uls hr, .header .biao {
+  position: absolute; }
+
+/* line 17, style.scss */
+html, body {
+  font-size: 100px;
+  font-family: "microsoft yahei"; }
+
+/* line 24, style.scss */
+.box {
+  font-size: .16rem;
+  display: flex;
+  flex-direction: column; }
+
+/* line 30, style.scss */
+.main {
+  width: 100%;
+  height: auto;
+  flex: 1;
+  overflow-y: scroll; }
+
+/* line 36, style.scss */
+.header {
+  width: 100%;
+  height: .4rem;
+  line-height: .4rem; }
+  /* line 41, style.scss */
+  .header .bg {
+    color: #FC062E; }
+  /* line 45, style.scss */
+  .header .uls {
+    display: inline-block;
+    margin-left: 30%;
+    width: 40%;
+    display: flex; }
+    /* line 51, style.scss */
+    .header .uls li {
+      width: 50%;
+      height: .4rem;
+      text-align: center; }
+    /* line 57, style.scss */
+    .header .uls hr {
+      width: 50%;
+      height: 4px;
+      background: #FC062E;
+      bottom: 2px;
+      left: 0; }
+  /* line 67, style.scss */
+  .header .biao {
+    right: 5%;
+    top: 2%;
+    font-size: 12px;
+    color: #666; }
+
+/* line 76, style.scss */
+.swiper1 {
+  width: 100%; }
+  /* line 78, style.scss */
+  .swiper1 .swiper-wrapper {
+    width: 100%; }
+    /* line 80, style.scss */
+    .swiper1 .swiper-wrapper .swiper-slide {
+      width: 100%;
+      display: flex; }
+      /* line 83, style.scss */
+      .swiper1 .swiper-wrapper .swiper-slide .xuan {
+        width: 100%; }
+
+/* line 90, style.scss */
+.xuan {
+  width: 100%; }
+  /* line 92, style.scss */
+  .xuan .top {
+    width: 100%;
+    padding: 10px 5%;
+    background: #eee; }
+    /* line 96, style.scss */
+    .xuan .top .ols {
+      width: 100%;
+      height: .3rem;
+      line-height: .3rem;
+      display: flex;
+      text-align: center;
+      /*li:nth-child(1){
+        background:#FC062E;
+        color:#fff;
+      }*/ }
+      /* line 102, style.scss */
+      .xuan .top .ols li {
+        width: 33.3%;
+        border: 1px solid #ccc;
+        background: #fff;
+        color: #666; }
+      /* line 112, style.scss */
+      .xuan .top .ols .bg1 {
+        background: #FC062E;
+        color: #fff; }
+
+/* line 120, style.scss */
+.nav {
+  width: 100%;
+  height: .3rem;
+  line-height: .3rem; }
+  /* line 124, style.scss */
+  .nav .ol2 {
+    width: 100%;
+    display: flex;
+    text-align: center; }
+    /* line 128, style.scss */
+    .nav .ol2 li {
+      width: 25%; }
+    /* line 134, style.scss */
+    .nav .ol2 .bg2 {
+      color: #FC062E; }
+
+/* line 139, style.scss */
+.boxss {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid #ccc; }
+  /* line 143, style.scss */
+  .boxss p:nth-child(1) {
+    width: 100%;
+    height: 30px;
+    line-height: 30px; }
+    /* line 147, style.scss */
+    .boxss p:nth-child(1) .span1 {
+      display: inline-block;
+      float: left;
+      font-size: 13px; }
+      /* line 151, style.scss */
+      .boxss p:nth-child(1) .span1 i {
+        color: #666; }
+    /* line 155, style.scss */
+    .boxss p:nth-child(1) .span2 {
+      display: inline-block;
+      width: 40px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      border: 1px solid #7FDD81;
+      float: right;
+      border-radius: 20px;
+      font-size: 10px;
+      color: #7FDD81;
+      margin-top: 5px; }
+  /* line 169, style.scss */
+  .boxss small {
+    width: 100%;
+    height: .7rem;
+    display: inline-block;
+    display: flex;
+    text-align: center; }
+    /* line 175, style.scss */
+    .boxss small dl {
+      width: 25%;
+      border-right: 1px solid #ccc; }
+      /* line 178, style.scss */
+      .boxss small dl dt {
+        color: #666;
+        padding: 10px 0; }
+      /* line 182, style.scss */
+      .boxss small dl dd {
+        font-size: 8px;
+        color: #666; }
+    /* line 187, style.scss */
+    .boxss small dl:nth-child(4) {
+      border: none; }
+
+/* line 193, style.scss */
+.footer {
+  width: 100%;
+  height: .5rem;
+  border-top: 10px solid #ccc;
+  display: flex;
+  text-align: center; }
+  /* line 199, style.scss */
+  .footer dl {
+    width: 100%;
+    flex-flow: 1; }
+    /* line 202, style.scss */
+    .footer dl dt {
+      padding-top: 2%;
+      padding-bottom: 1%;
+      display: inline-block;
+      font-size: 12px; }
+    /* line 208, style.scss */
+    .footer dl dd {
+      color: #666;
+      font-size: 12px; }
+  /* line 213, style.scss */
+  .footer .active {
+    color: #FF4692; }
+    /* line 215, style.scss */
+    .footer .active dd {
+      color: #FF4692; }
